@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    ".firebase",
+    "coverage",
+    "deploy",
+    "design",
+    "emulators-data",
+    "cypress",
+    "**/*.cy.ts",
+    "**/*.cy.js",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.test.js",
+    "**/*.test.jsx",
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
